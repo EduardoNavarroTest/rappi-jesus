@@ -1,9 +1,9 @@
-import Loading from "./widgets/Loading";
+import Home from "./pages/Home";
 
 const Main = () => {
 
     return (
-        <Loading />
+        <Home />
     )
 }
 
