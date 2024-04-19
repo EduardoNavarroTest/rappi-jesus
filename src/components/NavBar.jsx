@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const NavBar = () => {
 
     return (
@@ -11,16 +13,13 @@ const NavBar = () => {
                 </a>
                 <ul className="items-stretch hidden space-x-3 lg:flex">
                     <li className="flex">
-                        <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border- dark:text-violet-600 dark:border-violet-600">Home</a>
+                        <Link rel="noopener noreferrer" to="/" className="flex items-center px-4 -mb-1 border-b-2 dark:border- dark:text-violet-600 dark:border-violet-600">Home</Link>
                     </li>
                     <li className="flex">
-                        <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Servicios</a>
+                        <Link rel="noopener noreferrer" to="/servicios" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Servicios</Link>
                     </li>
                     <li className="flex">
-                        <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Repartidores</a>
-                    </li>
-                    <li className="flex">
-                        <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Link</a>
+                        <Link rel="noopener noreferrer" to="repartidores" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Repartidores</Link>
                     </li>
                 </ul>
                 <div className="items-center flex-shrink-0 hidden lg:flex">

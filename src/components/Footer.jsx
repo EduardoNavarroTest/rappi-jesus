@@ -16,6 +16,9 @@ const Footer = () => {
                             <li>
                                 <a rel="noopener noreferrer" href="#">Privacy</a>
                             </li>
+                            <li>
+                                <a rel="noopener noreferrer" href="#">Rappi Jesus</a>
+                            </li>
                         </ul>
                     </div>
                     <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">

@@ -19,7 +19,7 @@ const Home = () => {
             {/* Sección de imagen */}
             <div className="flex justify-center items-center">
               <img
-                src="https://lh3.googleusercontent.com/proxy/VIojuUKRoe4jDvgJiyuWnSGPM0XeLltutA4-YBp_dPi6Di8w6tt3vEkrYA8d1YEr-MEyfneVqu5bmcFNSP-9cCa5_GxhCEKZ0Flx7jw18XTRHpxPOfv-"
+                src="http://www.turismoporbolivar.com/sites/default/files/letras.jpg"
                 alt="Magangué"
                 className="max-w-full h-auto rounded-md shadow-md"
               />
