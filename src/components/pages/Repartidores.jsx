@@ -7,7 +7,7 @@ const Repartidores = () => {
             {/* Card de repartidor */}
             <div className="bg-white p-6 rounded-md shadow-md">
               <img
-                src="./repartidor.png"
+                src="/repartidor.png"
                 className="w-full h-auto rounded-full mb-4"
               />
               <h3 className="text-xl font-semibold mb-2">Jesús Acuña</h3>
@@ -19,7 +19,7 @@ const Repartidores = () => {
             {/* Card de repartidor */}
             <div className="bg-white p-6 rounded-md shadow-md">
               <img
-                src="./repartidora.jpeg"
+                src="/repartidora.jpeg"
                 alt="María López"
                 className="w-full h-auto rounded-full mb-4"
               />
@@ -32,7 +32,7 @@ const Repartidores = () => {
             {/* Card de repartidor */}
             <div className="bg-white p-6 rounded-md shadow-md">
               <img
-                src="./repartidor.png"
+                src="/repartidor.png"
                 className="w-full h-auto rounded-full mb-4"
               />
               <h3 className="text-xl font-semibold mb-2">El Maikel</h3>
